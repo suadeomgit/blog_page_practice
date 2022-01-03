@@ -10,10 +10,19 @@
         {
             box-sizing: border-box;
         }
+        h1,h2,h3,h4,h5,h6
+        {
+            text-align: center;
+        }
         header
         {
             height: 20%;
             padding: 40px;
+            background-color: #a7131380;
+        }
+        nav
+        {
+            background-color: #bccc3080;
         }
         nav#headnav
         {
@@ -21,28 +30,37 @@
             width: 100%;
             height: 5%;
         }
-        #headnav li
+        nav li
         {
             display: inline;
+            background-color: #c8ff0080;
         }
         nav#leftnav
         {
             float: left;
             width: 20%;
             height: 60%;
-            padding: 40px;
-
+            padding: 20px;
+        }
+        #leftnav ul
+        {
+            float: right;
         }
         main
         {
-            display: table;
+            display: inline-block;
+            float: right;
             padding: 20px;
             width: 80%;
+            background-color: #5a30cc80;
         }
         aside
         {
             width: 20%;
             height: 100%;
+            background-color: #30adcc80;
+            padding: 20px;
+            display: inline-block;
         }
         section
         {
@@ -50,6 +68,7 @@
             display: table;
             width: 80%;
             padding: 20px;
+            background-color: #30cc8b80;
         }
         article
         {
@@ -64,6 +83,7 @@
             display: table;
             width: 100%;
             height: 15%;
+            background-color: #00000080;
         }
     </style>
 </head>
@@ -79,23 +99,23 @@
             <li>python</li>
         </ul>
     </nav>
-    <nav id="leftnav">
+    <aside>
+        <h3>aside</h3>
         <ul>
             <li>front</li>
             <li>spring</li>
             <li>AI</li>
             <li>python</li>
         </ul>
-    </nav>
+    </aside>
     <main>
         <h2>main</h2>
-        <article>article in main</article>
+        <article>article  in main</article>
     </main>
     <section>
         <h3>section</h3>
         <article>article in section</article>
     </section>
-    <aside>aside</aside>
     <footer>
         <h2>footer</h2>
     </footer>
