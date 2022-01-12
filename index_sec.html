@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suadeomgit's Blog</title>
+    <style>
+        *
+        {
+            box-sizing: border-box;
+        }
+        html
+        {
+            height: 100%;
+            max-width: 100%;
+            /* width: 100%; */
+        }
+        body
+        {
+            display: flex;
+            margin: 0;
+            height: 100%;
+        }
+        h1,h2,h3,h4,h5,h6
+        {
+            text-align: center;
+        }
+        header
+        {
+            height: 20%;
+            padding: 40px;
+            background-color: #a7131380;
+        }
+        nav
+        {
+            background-color: #bccc3080;
+            /* padding: 20px 40px; */
+            /* width: 100%; */
+            /* height: 5%; */
+        }
+        nav ul
+        {
+            margin: 0;
+            padding: 0;
+        }
+        nav li
+        {
+            display: grid;
+            background-color: #c8ff0080;
+            word-break: break-all;
+            border: 1px solid rgb(0,0,0);
+        }
+        #l_side_main nav
+        {
+            padding: 1rem 0;
+        }
+        #l_side_main li
+        {
+            padding: 0 1rem;
+        }
+        #r_side_main li
+        {
+            height: 5vw;
+        }
+        main
+        {
+            display: inline-block;
+            /* float: right; */
+            padding: 20px;
+            width: 100%;
+            background-color: #5a30cc80;
+        }
+        aside
+        {
+            /* width: 20%; */
+            height: 100%;
+            background-color: #30adcc80;
+            padding: 20px;
+            /* display: inline-block; */
+        }
+        section
+        {
+            /* float: right; */
+            display: table;
+            width: 100%;
+            padding: 20px;
+            background-color: #30cc8b80;
+        }
+        article
+        {
+            float: left;
+            display: table;
+            width: 80%;
+            padding: 20px;
+        }
+        footer
+        {
+            padding: 40px;
+            display: table;
+            width: 100%;
+            height: 15%;
+            background-color: #00000080;
+        }
+        #l_side_main
+        {
+            width: 30%;
+            display: inline-block;
+            height: 100%;
+        }
+        #center_main
+        {
+            width: 65%;
+            display: inline-block;
+            height: 100%;
+        }
+        #r_side_main
+        {
+            width: 5%;
+            display: inline-block;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="l_side_main">
+        <header>
+            <h1>header</h1>
+        </header>
+        <nav>
+            <ul>
+                <li>All</li>
+                <li>recent</li>
+                <li>front</li>
+                <li>spring</li>
+                <li>AI</li>
+                <li>python</li>
+            </ul>
+        </nav>
+        <footer>
+            <h2>footer</h2>
+        </footer>
+    </div>
+    <div id="center_main">
+        <main>
+            <h2>main</h2>
+            <article>article  in main</article>
+        </main>
+        <section>
+            <h3>section</h3>
+            <article>article in section</article>
+        </section>
+        <aside>
+            <h3>aside</h3>
+            <ul>
+                <li>front</li>
+                <li>spring</li>
+                <li>AI</li>
+                <li>python</li>
+            </ul>
+        </aside>
+    </div>
+    <div id="r_side_main">
+        <nav>
+            <ul>
+                <li>check-in</li>
+                <li>coffee</li>
+                <li>donate</li>
+                <li>youtube</li>
+                <li>instagram</li>
+                <li>tweeter</li>
+                <li>github</li>
+                <li>like</li>
+                <li>notion</li>
+                <li>linkiden</li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
