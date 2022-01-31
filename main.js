@@ -12,14 +12,14 @@ document.querySelector('aside').setAttribute('style', 'height: '+newHeight+'px')
 // document.getElementsByTagName('aside')[0].setAttribute('style', 'height: '+newHeight+'px');
 
 // set left side main division's height by get Id(r_side_contents)'s height
-const cntsIdCenterMainDiv = document.querySelector('#r_side_contents');
-const heightIdCenterMainDiv = cntsIdCenterMainDiv.offsetHeight;
-console.log(heightIdCenterMainDiv);
-const cntsIdLeftSideMainHeader = document.getElementById('profile');
-const cntsIdLeftSideMainFooter = document.querySelector('#l_side_contents>footer');
-const heightIdLeftSideMainHeader = cntsIdLeftSideMainHeader.offsetHeight;
-const heightIdLeftSideMainFooter = cntsIdLeftSideMainFooter.offsetHeight;
-document.querySelector('#l_side_main nav').setAttribute('style', 'height: '+(heightIdCenterMainDiv-(heightIdLeftSideMainHeader+heightIdLeftSideMainFooter))+'px');
+// const cntsIdCenterMainDiv = document.querySelector('#r_side_contents');
+// const heightIdCenterMainDiv = cntsIdCenterMainDiv.offsetHeight;
+// console.log(heightIdCenterMainDiv);
+// const cntsIdLeftSideMainHeader = document.getElementById('profile');
+// const cntsIdLeftSideMainFooter = document.querySelector('#l_side_contents>footer');
+// const heightIdLeftSideMainHeader = cntsIdLeftSideMainHeader.offsetHeight;
+// const heightIdLeftSideMainFooter = cntsIdLeftSideMainFooter.offsetHeight;
+// document.querySelector('#l_side_main nav').setAttribute('style', 'height: '+(heightIdCenterMainDiv-(heightIdLeftSideMainHeader+heightIdLeftSideMainFooter))+'px');
 
 // set div#r_side_contents's height 
 // to min-width:1200px 
